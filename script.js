@@ -6,73 +6,25 @@ $(function(){
 
     let toggleMode = true;
 
-    $('#menu')
-
-        $('#menu').on('click', function(){
+        $('#expand_more').on('click', function(){
         if(toggleMode){
-            $('#home').css({
-                'top': '200px'
+            $('#expand_more').css({
+                'transform': 'rotate(180deg)'
             })
-            $('#shoppingBag').css({
-                'top': '290px'
-            })
-            $('#description').css({
-                'top': '380px'
+            $('.navWrap').css({
+                'height': '300px',
+                'padding': '30px 10px'
             })
             toggleMode = false
         }else{
-            $('#home').css({
-                'top': '15px'
+            $('#expand_more').css({
+                'transform': 'rotate(0deg)'
             })
-            $('#shoppingBag').css({
-                'top': '15px'
-            })
-            $('#description').css({
-                'top': '15px'
+            $('.navWrap').css({
+                'height': '0px',
+                'padding': '0px 10px'
             })
             toggleMode = true;
         }
-    })
-
-    $('#menu').on('mouseover', function(){
-        $('#menu').css({
-            'transform': 'scale(1.1)'
-        })
-    })
-    $('#home').on('mouseover', function(){
-        $('#home').css({
-            'transform': 'scale(1.1)'
-        })
-    })
-    $('#shoppingBag').on('mouseover', function(){
-        $('#shoppingBag').css({
-            'transform': 'scale(1.1)'
-        })
-    })
-    $('#description').on('mouseover', function(){
-        $('#description').css({
-            'transform': 'scale(1.1)'
-        })
-    })
-
-    $('#menu').on('mouseleave', function(){
-        $('#menu').css({
-            'transform': 'scale(1)'
-        })
-    })
-    $('#home').on('mouseleave', function(){
-        $('#home').css({
-            'transform': 'scale(1)'
-        })
-    })
-    $('#shoppingBag').on('mouseleave', function(){
-        $('#shoppingBag').css({
-            'transform': 'scale(1)'
-        })
-    })
-    $('#description').on('mouseleave', function(){
-        $('#description').css({
-            'transform': 'scale(1)'
-        })
     })
 })
