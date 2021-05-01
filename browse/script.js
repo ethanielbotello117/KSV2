@@ -28,7 +28,3 @@ $(function(){
         }
     })
 })
-
-$('.itemBox').on('dblclick', function(){
-    window.location.href = 'browse/browse.html'
-})
