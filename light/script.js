@@ -40,3 +40,7 @@ $('.light').on('click', function(){
 $('.dark').on('click', function(){
     window.location.href = '../index.html'
 })
+
+$('.browse').on('click', function(){
+    window.location.href = '../browseL/browse.html'
+})

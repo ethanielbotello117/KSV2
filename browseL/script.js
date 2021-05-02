@@ -28,19 +28,3 @@ $(function(){
         }
     })
 })
-
-$('.item7').on('click', function(){
-    window.location.href = 'https://www.youtube.com/watch?v=Lrj2Hq7xqQ8'
-})
-
-$('.light').on('click', function(){
-    window.location.href = 'light/light.html'
-})
-
-$('.dark').on('click', function(){
-    alert('The mode is already dark boss ;)')
-})
-
-$('.browse').on('click', function(){
-    window.location.href = 'browse/browse.html'
-})

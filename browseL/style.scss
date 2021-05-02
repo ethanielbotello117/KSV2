@@ -10,7 +10,7 @@
 }
 
 html {
-    background-color: #272727;
+    background-color: white;
 }
 
     .logo {
@@ -39,7 +39,7 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #272727;
+    background-color: white;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -55,13 +55,13 @@ html {
     right: 20px;
 }
 
-.material-icons-outlined {
+.navB {
     display: block;
     color: rgb(255, 0, 149);
     font-size: 3rem;
     height: 60px;
     width: 60px;
-    background-color: white;
+    background-color: #dbdbdb;
     text-align: center;
     border-radius: 50%;
     line-height: 60px;
@@ -84,7 +84,7 @@ html {
     top: 30px;
     padding: 0px 10px;
     height: 0px;
-    background-color: #414141;
+    background-color: #949494;
     border-radius: 15px;
     overflow: hidden;
     transition: 0.3s ease-out;
@@ -122,7 +122,7 @@ html {
         height: 200px;
         overflow: hidden;
         width: 100%;
-        background-color: #3b3b3b;
+        background-color: #929292;
         border-radius: 15px;
         .img{
             transition: 0.3s ease-out;
@@ -132,7 +132,7 @@ html {
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-color: #353535;
+            background-color: #5c5c5c;
         }
         li{
             list-style: none;
