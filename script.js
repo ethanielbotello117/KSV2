@@ -24,6 +24,7 @@ $(function(){
                 'height': '0px',
                 'padding': '0px 10px'
             })
+
             toggleMode = true;
         }
     })
@@ -44,3 +45,20 @@ $('.dark').on('click', function(){
 $('.browse').on('click', function(){
     window.location.href = 'browse/browse.html'
 })
+
+$('.item1').css({
+    'background-image': 'url(images/img1.png)'
+})
+
+let timer;
+let n = 1;
+
+timer = setInterval(function () {
+    if(n == 4){
+        n = 1;
+    }
+    $('.item1').css({
+        'background-image': `url(images/img${n}.png)`
+    })
+    n++
+}, 5000);
