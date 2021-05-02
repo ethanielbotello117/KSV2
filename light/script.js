@@ -34,9 +34,9 @@ $('.item7').on('click', function(){
 })
 
 $('.light').on('click', function(){
-    window.location.href = 'light/light.html'
+    alert('Mode is already light ^w^')
 })
 
 $('.dark').on('click', function(){
-    alert('The mode is already dark boss ;)')
+    window.location.href = '../index.html'
 })

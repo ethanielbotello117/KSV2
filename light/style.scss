@@ -10,14 +10,14 @@
 }
 
 html {
-    background-color: #272727;
+    background-color: white;
 }
 
 .logo {
     margin: 30px;
     display: flex;
     justify-self: center;
-    background-image: url(../images/KitsuneShopLogo.svg);
+    background-image: url(../../images/KitsuneShopLogo.svg);
     // background-image: url(../images/KitsuneLogo.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -39,11 +39,11 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #272727;
+    background-color: white;
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/kitsuneloader.gif);
+    background-image: url(../../images/kitsuneloader.gif);
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center;
@@ -61,7 +61,7 @@ html {
     font-size: 3rem;
     height: 60px;
     width: 60px;
-    background-color: white;
+    background-color: #dbdbdb;
     text-align: center;
     border-radius: 50%;
     line-height: 60px;
@@ -84,7 +84,7 @@ html {
     top: 30px;
     padding: 0px 10px;
     height: 0px;
-    background-color: #414141;
+    background-color: #949494;
     border-radius: 15px;
     overflow: hidden;
     transition: 0.3s ease-out;
@@ -110,7 +110,7 @@ html {
     .item1 {
         grid-column: 1 / 4;
         grid-row: 1 / 3;
-        background-image: url(../images/megumin-pfp2.jpg);
+        background-image: url(../../images/megumin-pfp2.jpg);
         border-radius: 10px;
         margin: 10px;
         background-repeat: no-repeat;
@@ -120,7 +120,7 @@ html {
     .item2 {
         grid-column: 4 / 5;
         grid-row: 1 / 2;
-        background-image: url(../images/light_mode_black_24dp.svg);
+        background-image: url(../../images/light_mode_black_24dp.svg);
         border-radius: 10px;
         margin: 10px;
         background-repeat: no-repeat;
@@ -130,7 +130,7 @@ html {
     .item3 {
         grid-column: 4 / 5;
         grid-row: 2 / 3;
-        background-image: url(../images/dark_mode_black_24dp.svg);
+        background-image: url(../../images/dark_mode_black_24dp.svg);
         border-radius: 10px;
         margin: 10px;
         background-repeat: no-repeat;
@@ -140,7 +140,7 @@ html {
     .item4 {
         grid-column: 1 / 3;
         grid-row: 3 / 4;
-        background-image: url(../images/shopping_bag_black_24dp.svg);
+        background-image: url(../../images/shopping_bag_black_24dp.svg);
         border-radius: 10px;
         margin: 10px;
         background-repeat: no-repeat;
@@ -150,7 +150,7 @@ html {
     .item5 {
         grid-column: 3 / 4;
         grid-row: 3 / 4;
-        background-image: url(../images/description_black_24dp.svg);
+        background-image: url(../../images/description_black_24dp.svg);
         border-radius: 10px;
         margin: 10px;
         background-repeat: no-repeat;
@@ -160,7 +160,7 @@ html {
     .item6 {
         grid-column: 1 / 4;
         grid-row: 4 / 5;
-        background-image: url(../images/help_outline_black_24dp.svg);
+        background-image: url(../../images/help_outline_black_24dp.svg);
         border-radius: 10px;
         margin: 10px;
         background-repeat: no-repeat;
@@ -170,7 +170,7 @@ html {
     .item7 {
         grid-column: 4 / 5;
         grid-row: 3 / 5;
-        background-image: url(../images/share_black_24dp.svg);
+        background-image: url(../../images/share_black_24dp.svg);
         border-radius: 10px;
         margin: 10px;
         background-repeat: no-repeat;
@@ -179,7 +179,7 @@ html {
     }
 
     #itemBox {
-        background-color: #3b3b3b;
+        background-color: #929292;
         // background-color: #803232;
         transition: 0.5s ease-out;
         cursor: pointer;
@@ -211,7 +211,7 @@ html {
         display: flex;
         justify-self: center;
         // background-image: url(../images/KitsuneShopLogo.svg);
-        background-image: url(../images/KitsuneLogo.svg);
+        background-image: url(../../images/KitsuneLogo.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: left;
