@@ -49,9 +49,15 @@ $('.browse').on('click', function(){
 $('.item1').css({
     'background-image': 'url(images/img1.png)'
 })
+$('.item1').css({
+    'background-image': 'url(images/img2.png)'
+})
+$('.item1').css({
+    'background-image': 'url(images/img3.png)'
+})
 
 let timer;
-let n = 1;
+let n = 3;
 
 timer = setInterval(function () {
     if(n == 4){
