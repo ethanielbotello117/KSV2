@@ -1,5 +1,10 @@
 $(window).on("load",function(){
     $(".loader-wrapper").fadeOut("slow")
+    setTimeout(function(){
+        $('body').css({
+            'position': 'static'
+        })
+    }, 500)
 })
 
 $(function(){

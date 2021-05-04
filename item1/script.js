@@ -29,7 +29,11 @@ $(function(){
                 'height': '0px',
                 'padding': '0px 10px'
             })
+
             toggleMode = true;
         }
     })
 })
+
+let img = document.getElementById("img");
+img.src = "../images/Akeno.svg";
