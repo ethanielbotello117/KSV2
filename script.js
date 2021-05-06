@@ -35,10 +35,6 @@ $(function(){
     })
 })
 
-$('.item1').on('click', function(){
-    window.location.href = 'item1/item1.html'
-})
-
 $('.item7').on('click', function(){
     window.location.href = 'https://www.youtube.com/watch?v=Lrj2Hq7xqQ8'
 })
@@ -77,3 +73,37 @@ $('.browse').on('click', function(){
 //     })
 //     n++
 // }, 5000);
+
+
+
+
+$('.item1').on('click', function(){
+    window.location.href = 'items/item1/item1.html'
+})
+
+$('.item1').css({
+    'background-image': 'url(images/item2.svg)'
+})
+$('.item1').css({
+    'background-image': 'url(images/item3.svg)'
+})
+$('.item1').css({
+    'background-image': 'url(images/item1.svg)'
+})
+
+let timer;
+let n = 1;
+
+timer = setInterval(function () {
+    n++
+    if(n == 4){
+        n = 1;
+    }
+    $('.item1').css({
+        'background-image': `url(images/item${n}.svg)`
+    })
+
+    $('.item1').on('click', function(){
+        window.location.href = `items/item${n}/item${n}.html`
+    })
+}, 3000);

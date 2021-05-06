@@ -11,6 +11,19 @@
 
 html {
     background-color: #272727;
+    &::before{
+        content: "";
+        background-image: url(../../../images/item3.svg);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        background-repeat: no-repeat;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.1;
+    }
 }
 
 body{
@@ -23,7 +36,7 @@ body{
     margin: 30px;
     display: flex;
     justify-self: center;
-    background-image: url(../../images/KitsuneShopLogo.svg);
+    background-image: url(../../../images/KitsuneShopLogo.svg);
     // background-image: url(../images/KitsuneLogo.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -31,6 +44,7 @@ body{
     width: 280px;
     cursor: pointer;
     transition: 0.3s;
+    position: relative;
     &:hover{
         padding-right: 10px;
         transform: scale(1.03);
@@ -49,7 +63,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../images/kitsuneloader.gif);
+    background-image: url(../../../images/kitsuneloader.gif);
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center;
@@ -109,36 +123,22 @@ body{
 
 
 .container{
-    // height: 500px;
-    // width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
-    // align-content: center;
-    // background-image: url(../../images/Akeno.svg);
-    // background-size: cover;
-    // background-position: center;
     overflow: hidden;
-    &::before{
-        content: "";
-        background-image: url(../../images/Akeno.svg);
-        background-size: cover;
-        background-position: center;
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        opacity: 0.50;
-    }
+    align-content: space-between;
     img{
         position: relative;
         transition: 0.3s;
-        // height: 900px;
-        width: 35%;
+        max-height: 600px;
+        // box-shadow: 0 0 15px 10px rgb(255, 0, 149);
+        // padding: 15px;
     }
     .desc{
+        padding: 10px;
         position: relative;
         margin: auto;
-        width: 65%;
         h1, h2{
             margin-top: 40px;
             margin-bottom: 40px;
@@ -167,6 +167,13 @@ body{
     }
 }
 
+// .bg{
+//     height: 100%;
+//     width: 100%;
+//     background-color: aqua;
+//     position: absolute;
+// }
+
 
 
 
@@ -178,7 +185,7 @@ body{
         display: flex;
         justify-self: center;
         // background-image: url(../images/KitsuneShopLogo.svg);
-        background-image: url(../../images/KitsuneLogo.svg);
+        background-image: url(../../../images/KitsuneLogo.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: left;

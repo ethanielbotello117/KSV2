@@ -33,3 +33,37 @@ $(function(){
         }
     })
 })
+
+
+$('#logo').on('click', function(){
+    window.location.href = '../light/light.html'
+})
+
+let itemNum = 1;
+$(`#img${itemNum}`).css({
+    'background-image': `url(../images/item${itemNum}.svg)`
+})
+itemNum++
+$(`#img${itemNum}`).css({
+    'background-image': `url(../images/item${itemNum}.svg)`
+})
+itemNum++
+$(`#img${itemNum}`).css({
+    'background-image': `url(../images/item${itemNum}.svg)`
+})
+itemNum++
+
+
+
+$('#i1').on('click', function(){
+    n = 1;
+    window.location.href = `../items/item${n}/item${n}.html`;
+})
+$('#i2').on('click', function(){
+    n = 2;
+    window.location.href = `../items/item${n}/item${n}.html`;
+})
+$('#i3').on('click', function(){
+    n = 3;
+    window.location.href = `../items/item${n}/item${n}.html`;
+})

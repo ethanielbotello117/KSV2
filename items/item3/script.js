@@ -36,4 +36,8 @@ $(function(){
 })
 
 let img = document.getElementById("img");
-img.src = "../images/Akeno.svg";
+img.src = "../../images/item3.svg";
+
+$('#logo').on('click', function(){
+    window.location.href = '../../index.html'
+})

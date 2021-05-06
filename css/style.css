@@ -119,11 +119,10 @@ body {
 .splash .item1 {
   grid-column: 1 / 4;
   grid-row: 1 / 3;
-  background-image: url(../images/image_black_24dp.svg);
   border-radius: 10px;
   margin: 10px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
