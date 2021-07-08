@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/kitsunesymbol.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <header class="logo" id="logo"></header>
+
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <div class="formSpace">
+        <section class="form">
+            <div class="container">
+                <form action="https://formspree.io/f/mknpkkab" id="test-form" method="POST">
+
+                    <div class="form-group">
+                        <div class="lilman">
+                            <label for="firstName">First Name</label>
+                        </div>
+                        <input type="text" id="firstName" name="firstName">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="handle">Instagram Handle</label>
+                        <input type="text" id="handle" name="handle">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="massage">Future design requests?(Not Required)</label>
+                        <textarea name="message" id="messge" rows="10" maxlength="200"></textarea>
+                    </div>
+
+                    <div class="button">
+                        <button type="submit" id="test-form-submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div id="status"></div>
+        </section>
+    </div>
+
+    <nav id="nav">
+        <div class="icons">
+
+            <div class="navWrap" id="navWrap">
+                <a href="../index.html"><span class="material-icons-outlined navB" id="home">home</span></a>
+
+                <a href="browse/browse.html"><span class="material-icons-outlined navB"
+                        id="shoppingBag">shopping_bag</span></a>
+
+                <a href=""><span class="material-icons-outlined navB" id="description">description</span></a>
+            </div>
+
+            <span class="material-icons-outlined navB" id="expand_more">expand_more</span>
+
+        </div>
+    </nav>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

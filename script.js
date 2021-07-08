@@ -51,6 +51,10 @@ $('.browse').on('click', function(){
     window.location.href = 'browse/browse.html'
 })
 
+$('.form').on('click', function(){
+    window.location.href = 'Form/form.html'
+})
+
 // $('.item1').css({
 //     'background-image': 'url(images/img1.png)'
 // })
