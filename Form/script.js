@@ -39,16 +39,16 @@ window.addEventListener("DOMContentLoaded", function () {
 
     // get the form elements defined in your form HTML above
 
-    var form = document.getElementById("test-form");
-    var button = document.getElementById("test-form-submit");
-    var status = document.getElementById("status");
+    let form = document.getElementById("test-form");
+    let button = document.getElementById("test-form-submit");
+    let status = document.getElementById("status");
 
     // Success and Error functions for after the form is submitted
 
     function success() {
         form.reset();
         status.classList.add('success');
-        status.innerHTML = "Your form has been sent, Thx!";
+        status.innerHTML = "Your form has been sent, we will email you soon Thx!";
     }
 
     function error() {
@@ -96,3 +96,7 @@ function toggleMenu() {
     body.classList.toggle('active');
     plop.classList.toggle('active');
 }
+
+$('#logo').on('click', function(){
+    window.location.href = '../index.html'
+})

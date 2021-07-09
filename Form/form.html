@@ -22,33 +22,35 @@
     <div class="formSpace">
         <section class="form">
             <div class="container">
-                <form action="https://formspree.io/f/mknpkkab" id="test-form" method="POST">
+                <form autocomplete="off" action="https://formspree.io/f/mknpkkab" id="test-form" method="POST">
 
                     <div class="form-group">
-                        <div class="lilman">
-                            <label for="firstName">First Name</label>
-                        </div>
-                        <input type="text" id="firstName" name="firstName">
+                        <input placeholder="First Name" type="text" id="firstName" name="firstName">
                     </div>
 
                     <div class="form-group">
-                        <label for="lastName">Last Name</label>
-                        <input type="text" id="lastName" name="lastName">
+                        <input placeholder="Last Name" type="text" id="lastName" name="lastName">
                     </div>
 
                     <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="Email">
+                        <input placeholder="Email" type="email" id="email" name="Email">
                     </div>
 
                     <div class="form-group">
-                        <label for="handle">Instagram Handle</label>
-                        <input type="text" id="handle" name="handle">
+                        <input placeholder="Shipping Address" type="text" id="address" name="address">
                     </div>
 
                     <div class="form-group">
-                        <label for="massage">Future design requests?(Not Required)</label>
-                        <textarea name="message" id="messge" rows="10" maxlength="200"></textarea>
+                        <input placeholder="Select item to purchase" list="items">
+
+                        <datalist id="items">
+                        <option value="Item Z1()">
+                        <option value="Item Z2()">
+                        <option value="Item Z3()">
+                        <option value="Item Z4()">
+                        <option value="Item Z5()">
+                        <option value="Item Z6()">
+                        </datalist>
                     </div>
 
                     <div class="button">

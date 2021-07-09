@@ -23,6 +23,7 @@ body {
   width: 280px;
   cursor: pointer;
   transition: 0.3s;
+  position: relative;
 }
 
 .logo:hover {
@@ -119,31 +120,24 @@ body {
 .formSpace .form .form-group {
   width: 80%;
   margin: 0 auto;
-  font-size: 20px;
 }
 
-.formSpace .form .form-group textarea,
 .formSpace .form .form-group input {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 130%;
+  border: 0;
   width: 100%;
   padding: 10px;
-  border: 1px solid rgba(206, 206, 206, 0.63);
-  margin-top: 5px;
-  transition: 0.5s;
-  color: black;
+  margin-bottom: 20px;
+  outline: 0;
+  border-bottom: 2px solid #fa3899;
+  background: transparent;
+  background-color: none;
+  transition: border-color 0.4s;
 }
 
-.formSpace .form label {
-  font-size: 120%;
-  transition: 0.3s ease-in-out;
-}
-
-.formSpace .form label:hover {
-  color: #fa3899;
-  padding-left: 10px;
-}
-
-.formSpace .form textarea {
-  resize: vertical;
+.formSpace .form .form-group input:focus {
+  border-bottom: 2px solid aqua;
 }
 
 .formSpace .form .button {
@@ -176,8 +170,8 @@ body {
 }
 
 #status {
-  margin-top: 10px;
-  width: 90%;
+  margin: 0 auto;
+  width: 100%;
   max-width: 500px;
   text-align: center;
   padding: 10px;
@@ -227,7 +221,7 @@ html {
 
 html::before {
   content: "";
-  background-image: url(../../images/megumin-pfp2.svg);
+  background-image: url(../../images/KSV2Formbg.svg);
   background-size: cover;
   background-position: center;
   position: absolute;
