@@ -126,7 +126,11 @@ body {
                 background: transparent;
                 background-color: none;
                 transition: border-color 0.4s;
+                border-radius: 0;
                 &:focus{
+                    border-bottom: 2px solid aqua;
+                }
+                &:hover{
                     border-bottom: 2px solid aqua;
                 }
             }
@@ -150,7 +154,6 @@ body {
                 cursor: pointer;
                 transition: 0.3s ease;
                 font-size: 22px;
-                margin: 0 auto;
             }
             button[type="submit"]:hover {
                 background-color: rgb(250, 56, 153);
@@ -161,7 +164,7 @@ body {
 }
 
 #status {
-    margin: 0 auto;
+    margin: 20px auto;
     width: 100%;
     max-width: 500px;
     text-align: center;

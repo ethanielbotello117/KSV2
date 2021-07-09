@@ -134,9 +134,14 @@ body {
   background: transparent;
   background-color: none;
   transition: border-color 0.4s;
+  border-radius: 0;
 }
 
 .formSpace .form .form-group input:focus {
+  border-bottom: 2px solid aqua;
+}
+
+.formSpace .form .form-group input:hover {
   border-bottom: 2px solid aqua;
 }
 
@@ -161,7 +166,6 @@ body {
   cursor: pointer;
   transition: 0.3s ease;
   font-size: 22px;
-  margin: 0 auto;
 }
 
 .formSpace .form .button button[type="submit"]:hover {
@@ -170,7 +174,7 @@ body {
 }
 
 #status {
-  margin: 0 auto;
+  margin: 20px auto;
   width: 100%;
   max-width: 500px;
   text-align: center;
