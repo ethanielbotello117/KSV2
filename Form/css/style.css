@@ -139,6 +139,7 @@ body {
 
 .formSpace .form .form-group input:focus {
   border-bottom: 2px solid aqua;
+  text-transform: none;
 }
 
 .formSpace .form .form-group input:hover {

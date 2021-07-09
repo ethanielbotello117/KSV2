@@ -129,6 +129,7 @@ body {
                 border-radius: 0;
                 &:focus{
                     border-bottom: 2px solid aqua;
+                    text-transform: none;
                 }
                 &:hover{
                     border-bottom: 2px solid aqua;

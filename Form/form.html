@@ -41,9 +41,11 @@
                     </div>
 
                     <div class="form-group">
-                        <input placeholder="Select item to purchase" list="items">
+                        <input onfocus="blur()" class="itemSelect" placeholder="Select item to purchase" type="text" list="items" name="itemSelected">
+                        <!-- <input class="itemSelect" placeholder="Select item to purchase" type="text" list="items" name="itemSelected"> -->
 
                         <datalist id="items">
+                        <option value="None">
                         <option value="Item Z1()">
                         <option value="Item Z2()">
                         <option value="Item Z3()">

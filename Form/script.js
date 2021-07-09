@@ -97,6 +97,12 @@ function toggleMenu() {
     plop.classList.toggle('active');
 }
 
-$('#logo').on('click', function(){
+$('#logo').on('click', function () {
     window.location.href = '../index.html'
 })
+
+$('.inputSelect').keyup(function () {
+
+    $(this).attr('val', '');
+
+});
