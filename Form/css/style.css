@@ -135,7 +135,7 @@ body {
   background-color: none;
   transition: border-color 0.4s;
   border-radius: 0;
-  color: white;
+  color: pink;
 }
 
 .formSpace .form .form-group input:focus {
