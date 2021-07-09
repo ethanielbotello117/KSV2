@@ -127,6 +127,7 @@ body {
                 background-color: none;
                 transition: border-color 0.4s;
                 border-radius: 0;
+                color: white;
                 &:focus{
                     border-bottom: 2px solid aqua;
                     text-transform: none;
