@@ -1,0 +1,204 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    color: white;
+}
+
+html {
+    background-color: rgb(185, 185, 185);
+    &::before{
+        content: "";
+        background-image: url(../../../images/item2.svg);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        background-repeat: no-repeat;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.1;
+    }
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.logo {
+    margin: 30px;
+    display: flex;
+    justify-self: center;
+    background-image: url(../../../images/KitsuneShopLogo.svg);
+    // background-image: url(../images/KitsuneLogo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70px;
+    width: 280px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    &:hover{
+        padding-right: 10px;
+        transform: scale(1.03);
+    }
+}
+
+/* Loader */
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(185, 185, 185);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../images/kitsuneloader.gif);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icons {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.navB {
+    display: block;
+    color: rgb(255, 0, 149);
+    font-size: 3rem;
+    height: 60px;
+    width: 60px;
+    background-color: #dbdbdb;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 60px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    &:hover {
+        color: aqua;
+    }
+}
+
+#expand_more {
+    margin-left: 10px;
+    transform: rotate(0deg);
+    font-size: 3.2rem;
+}
+
+.navWrap {
+    position: absolute;
+    top: 30px;
+    padding: 0px 10px;
+    height: 0px;
+    background-color: #949494;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s ease-out;
+    a{
+        text-decoration: none;
+    }
+    .material-icons-outlined {
+        margin-top: 20px;
+        padding: 0;
+        transition: 0.3s ease-out;
+        &:hover {
+            border-radius: 14px;
+        }
+    }
+}
+
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    overflow: hidden;
+    align-content: space-between;
+    img{
+        position: relative;
+        transition: 0.3s;
+        max-height: 600px;
+        // box-shadow: 0 0 15px 10px rgb(255, 0, 149);
+        // padding: 15px;
+    }
+    .desc{
+        padding: 10px;
+        position: relative;
+        margin: auto;
+        h1, h2{
+            margin-top: 40px;
+            margin-bottom: 40px;
+            height: fit-content;
+            width: fit-content;
+            padding: 10px;
+            background-color: #949494;
+            border-radius: 10px;
+            transition: 0.3s ease-out;
+            cursor: default;
+        }
+        .form{
+            box-shadow: 0 0 10px 5px rgb(255, 0, 149);
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            &:hover{
+                color: white;
+                transform: scale(1.05);
+                box-shadow: 0 0 15px 10px rgb(255, 0, 149);
+                background-color: rgb(255, 0, 149);
+            }
+        }
+    }
+}
+
+// .bg{
+//     height: 100%;
+//     width: 100%;
+//     background-color: aqua;
+//     position: absolute;
+// }
+
+
+
+
+
+
+@media (max-width: 750px) {
+    .logo {
+        margin: 30px;
+        display: flex;
+        justify-self: center;
+        // background-image: url(../images/KitsuneShopLogo.svg);
+        background-image: url(../../../images/KitsuneLogo.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        height: 70px;
+        width: 55px;
+        cursor: pointer;
+    }
+
+    .container{
+        display: block;
+        img{
+            width: 100%;
+        }
+        .desc{
+            position: relative;
+            left: auto;
+        }
+    }
+}

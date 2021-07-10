@@ -50,13 +50,17 @@ $('.browse').on('click', function(){
     window.location.href = '../browseL/browse.html'
 })
 
+$('.form').on('click', function(){
+    window.location.href = '../FormL/form.html'
+})
+
 
 
 
 
 
 $('.item1').on('click', function(){
-    window.location.href = '../items/item1/item1.html'
+    window.location.href = '../itemsL/item1/item1.html'
 })
 
 $('.item1').css({
@@ -82,6 +86,6 @@ timer = setInterval(function () {
     })
 
     $('.item1').on('click', function(){
-        window.location.href = `../items/item${n}/item${n}.html`
+        window.location.href = `../itemsL/item${n}/item${n}.html`
     })
 }, 5000);
