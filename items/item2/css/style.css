@@ -156,10 +156,6 @@ body {
   cursor: default;
 }
 
-.container .desc h1:hover, .container .desc h2:hover {
-  background-color: aqua;
-}
-
 .container .desc .form {
   box-shadow: 0 0 10px 5px #ff0095;
   color: #ff0095;

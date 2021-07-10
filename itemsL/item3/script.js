@@ -41,3 +41,7 @@ img.src = "../../images/item3.svg";
 $('#logo').on('click', function(){
     window.location.href = '../../light/light.html'
 })
+
+$('.form').on('click', function(){
+    window.location.href = '../../FormL/form.html'
+})

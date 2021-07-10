@@ -130,7 +130,7 @@ body {
   padding: 10px;
   margin-bottom: 20px;
   outline: 0;
-  border-bottom: 2px solid #fa3899;
+  border-bottom: 4px solid #fa3899;
   background: transparent;
   background-color: none;
   transition: border-color 0.4s;
@@ -139,12 +139,12 @@ body {
 }
 
 .formSpace .form .form-group input:focus {
-  border-bottom: 2px solid aqua;
+  border-bottom: 4px solid aqua;
   text-transform: none;
 }
 
 .formSpace .form .form-group input:hover {
-  border-bottom: 2px solid aqua;
+  border-bottom: 4px solid aqua;
 }
 
 .formSpace .form .button {

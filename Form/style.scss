@@ -122,18 +122,18 @@ body {
                 padding: 10px;
                 margin-bottom: 20px;
                 outline: 0;
-                border-bottom: 2px solid rgb(250, 56, 153);
+                border-bottom: 4px solid rgb(250, 56, 153);
                 background: transparent;
                 background-color: none;
                 transition: border-color 0.4s;
                 border-radius: 0;
                 color: white;
                 &:focus{
-                    border-bottom: 2px solid aqua;
+                    border-bottom: 4px solid aqua;
                     text-transform: none;
                 }
                 &:hover{
-                    border-bottom: 2px solid aqua;
+                    border-bottom: 4px solid aqua;
                 }
             }
         }

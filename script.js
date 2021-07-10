@@ -36,7 +36,7 @@ $(function(){
 })
 
 $('.item7').on('click', function(){
-    window.location.href = 'https://www.youtube.com/watch?v=Lrj2Hq7xqQ8'
+    window.location.href = 'https://youtu.be/kKXzFv2ICrA'
 })
 
 $('.light').on('click', function(){
@@ -111,3 +111,10 @@ timer = setInterval(function () {
         window.location.href = `items/item${n}/item${n}.html`
     })
 }, 3000);
+
+let randy = ''
+
+$('.item6').on('click', function(){
+    randy = Math.ceil(Math.random() * 3)
+    window.location.href = `items/item${randy}/item${randy}.html`
+})
