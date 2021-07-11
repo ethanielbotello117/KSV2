@@ -142,7 +142,7 @@ body {
 
 .itemsContainer .listItem li .name {
   font-size: 5rem;
-  height: 200px;
+  height: 130px;
 }
 
 .itemsContainer .listItem li .info {
@@ -151,23 +151,11 @@ body {
 
 .itemsContainer .listItem li .info .price {
   transition: 0.3s;
-  font-size: 3rem;
+  font-size: 2rem;
   background-color: #ff0095;
   border-radius: 5px;
   margin-left: 10px;
   padding: 5px;
-}
-
-.itemsContainer .listItem li .info .price:hover {
-  background-color: aqua;
-}
-
-.itemsContainer .listItem:hover {
-  height: 300px;
-}
-
-.itemsContainer .listItem:hover .img {
-  width: 30%;
 }
 
 @media (max-width: 750px) {
