@@ -12,7 +12,7 @@ html {
     background-color: rgb(185, 185, 185);
     &::before{
         content: "";
-        background-image: url(../../../images/item1.svg);
+        background-image: url(../../images/item1.svg);
         background-size: cover;
         background-position: center;
         position: absolute;
@@ -35,7 +35,7 @@ body{
     margin: 30px;
     display: flex;
     justify-self: center;
-    background-image: url(../../../images/KitsuneShopLogo.svg);
+    background-image: url(../../images/KitsuneShopLogo.svg);
     // background-image: url(../images/KitsuneLogo.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -62,7 +62,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../../images/kitsuneloader.gif);
+    background-image: url(../../images/kitsuneloader.gif);
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center;
@@ -181,7 +181,7 @@ body{
         display: flex;
         justify-self: center;
         // background-image: url(../images/KitsuneShopLogo.svg);
-        background-image: url(../../../images/KitsuneLogo.svg);
+        background-image: url(../../images/KitsuneLogo.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: left;

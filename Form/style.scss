@@ -17,7 +17,7 @@ body {
     margin: 30px;
     display: flex;
     justify-self: center;
-    background-image: url(../../images/KitsuneShopLogo.svg);
+    background-image: url(../images/KitsuneShopLogo.svg);
     // background-image: url(../images/KitsuneLogo.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -44,7 +44,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../images/kitsuneloader.gif);
+    background-image: url(../images/kitsuneloader.gif);
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center;
@@ -213,7 +213,7 @@ html {
     background-color: #272727;
     &::before{
         content: "";
-        background-image: url(../../images/KSV2Formbg.svg);
+        // background-image: url(../images/KSV2Formbg.svg);
         background-size: cover;
         background-position: center;
         position: absolute;
@@ -232,7 +232,7 @@ html {
         display: flex;
         justify-self: center;
         // background-image: url(../images/KitsuneShopLogo.svg);
-        background-image: url(../../images/KitsuneLogo.svg);
+        background-image: url(../images/KitsuneLogo.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: left;

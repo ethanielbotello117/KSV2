@@ -1,0 +1,275 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+}
+
+body {
+  width: 100%;
+}
+
+.logo {
+  margin: 30px;
+  display: flex;
+  justify-self: center;
+  background-image: url(../images/KitsuneShopLogo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 280px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+.logo:hover {
+  padding-right: 10px;
+  transform: scale(1.03);
+}
+
+/* Loader */
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/kitsuneloader.gif);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 100;
+}
+
+.icons {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.navB {
+  display: block;
+  color: #ff0095;
+  font-size: 3rem;
+  height: 60px;
+  width: 60px;
+  background-color: #dbdbdb;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 60px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.navB:hover {
+  color: aqua;
+}
+
+#expand_more {
+  margin-left: 10px;
+  transform: rotate(0deg);
+  font-size: 3.2rem;
+}
+
+.navWrap {
+  position: absolute;
+  top: 30px;
+  padding: 0px 10px;
+  height: 0px;
+  background-color: #949494;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+.navWrap a {
+  text-decoration: none;
+}
+.navWrap .material-icons-outlined {
+  margin-top: 20px;
+  padding: 0;
+  transition: 0.3s ease-out;
+}
+.navWrap .material-icons-outlined:hover {
+  border-radius: 14px;
+}
+
+.formSpace {
+  position: absolute;
+  width: 50%;
+}
+.formSpace .form {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  width: auto;
+}
+.formSpace .form .form-group {
+  width: 80%;
+  margin: 0 auto;
+}
+.formSpace .form .form-group input {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 130%;
+  border: 0;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  outline: 0;
+  border-bottom: 4px solid #fa3899;
+  background: transparent;
+  background-color: none;
+  transition: border-color 0.4s;
+  border-radius: 0;
+  color: black;
+}
+.formSpace .form .form-group input:focus {
+  border-bottom: 4px solid aqua;
+  text-transform: none;
+}
+.formSpace .form .form-group input:hover {
+  border-bottom: 4px solid aqua;
+}
+.formSpace .form .button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
+}
+.formSpace .form .button button[type=submit] {
+  width: 180px;
+  height: 70px;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  color: #fa3899;
+  background-color: #444444;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 22px;
+}
+.formSpace .form .button button[type=submit]:hover {
+  background-color: #fa3899;
+  color: white;
+}
+
+#status {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#status.success {
+  background-color: #a1fa99;
+  color: green;
+  -webkit-animation: status 4s ease forwards;
+          animation: status 4s ease forwards;
+}
+
+#status.error {
+  background-color: #fa5c5c;
+  color: #fcfcfc;
+  -webkit-animation: status 4s ease forwards;
+          animation: status 4s ease forwards;
+}
+
+@-webkit-keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+form .form-group {
+  transition: ease-in-out 0.4s;
+}
+
+.container form button {
+  transition: 0.3s;
+}
+
+html {
+  background-color: white;
+}
+html::before {
+  content: "";
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
+}
+
+@media (max-width: 750px) {
+  .logo {
+    margin: 30px;
+    display: flex;
+    justify-self: center;
+    background-image: url(../images/KitsuneLogo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 70px;
+    width: 55px;
+    cursor: pointer;
+  }
+
+  .formSpace {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    margin: 0 auto;
+  }
+}/*# sourceMappingURL=style.css.map */
